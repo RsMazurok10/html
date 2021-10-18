@@ -1,0 +1,50 @@
+body{
+    background: goldenrod;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: justify ;
+    color: #102642;
+    margin-left: 500px;
+}
+.center{
+    text-align: center;
+}
+.round{
+    border-radius: 90px;
+    border: #102642 solid ;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.abz{
+    padding: 5px;
+}
+h1,h2{
+    color: goldenrod;
+}
+div{
+    background: grey;
+    width: 1000px;
+    height: auto;
+    box-shadow: 10px 10px 10px #102642 ;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    border-left: 5px solid #102642;
+    border-bottom: 10px solid #102642;
+}
+a:hover{
+    color: goldenrod;
+}
+
+
+
