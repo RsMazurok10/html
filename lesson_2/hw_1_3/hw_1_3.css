@@ -1,0 +1,42 @@
+.wrap{
+    background: white;
+    display: flex;
+    height: auto;
+    width:1460px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding: 10px;
+}
+.widgets{
+    background: #102642;
+    width: 1460px;
+    height: 600px;
+}
+.all{
+    display: flex;
+    column-gap: 20px;
+    width:1460px;
+}
+.big{
+    background: #102642;
+    width: 480px;
+    height: 600px;
+}
+.bigger{
+    background: #102642;
+    width: 480px;
+    height: 600px;
+}
+.huge{
+    background: #102642;
+    width: 480px;
+    height: 600px;
+}
+.contacts{
+    background: #102642;
+    width: 1460px;
+    height: 600px;
+}
+
+
+

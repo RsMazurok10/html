@@ -1,0 +1,39 @@
+.wrap {
+    background: grey;
+    display: flex;
+    width: 1800px;
+    height: auto;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 5px;
+    row-gap: 10px;
+    padding: 10px;
+
+
+}
+
+.a {
+    background: goldenrod;
+    height: 200px;
+    width: 1780px;
+
+
+}
+
+.b {
+    background: #102642;
+    height: 700px;
+    width: 1400px;
+
+}
+
+.c {
+    background: #102642;
+    height: 700px;
+    width: 370px;
+}
+.box{
+    display: flex;
+    column-gap: 10px;
+
+}
