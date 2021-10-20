@@ -1,0 +1,56 @@
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    margin: 0 auto;
+}
+.wrap{
+    background: white;
+    width:1000px;
+    border: 10px solid white;
+    column-gap: 10px;
+}
+.first{
+    column-gap: 20px;
+    display: flex;
+}
+.home{
+    background: midnightblue;
+    flex-grow: 1;
+    height:700px;
+
+}
+.about{
+    background: midnightblue;
+    flex-grow: 1;
+
+}
+.kabobs{
+    background: midnightblue;
+    width: auto;
+    height:300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.three{
+    flex-grow: 1;
+    display: flex;
+    column-gap: 20px;
+}
+.shisha{
+    flex-grow: 1;
+    height:400px;
+    background: midnightblue;
+}
+.bbq{
+    flex-grow: 1;
+    height:400px;
+    background: midnightblue;
+}
+.summer{
+    flex-grow: 1;
+    height:400px;
+    background: midnightblue;
+}
