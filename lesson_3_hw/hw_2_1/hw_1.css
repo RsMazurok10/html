@@ -1,0 +1,49 @@
+.back{
+    background: lightgrey;
+}
+.border{
+    border: 10px solid dimgray;
+    border-radius:8px ;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.h100{
+ height: 100px;
+}
+.h500{
+    height: 500px;
+}
+.flex{
+    flex-direction: column;
+    display: flex;
+}
+.margin{
+    margin:10px;
+}
+.display{
+    display: flex;
+}
+.wh1000{
+    width: 1000px;
+}
+.margin0{
+    margin: 0 auto;
+}
+.wh70{
+    width:70%;
+}
+.wh30{
+    width: 30%;
+}
+.gap{
+    column-gap: 10px;
+}
+.marg{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,42 @@
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:white;
+}
+.margin_0{
+    margin: 0 auto;
+}
+.width1000{
+    width: 1000px;
+}
+.height300{
+    height: 300px;
+}
+.height600{
+    height: 600px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.back_1{
+    background: #102642;
+}
+.back{
+    background: royalblue;
+}
+.gap{
+    column-gap:10px;
+}
+.marg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.display{
+    display: flex;
+}
+.grow{
+    flex-grow: 1;
+}

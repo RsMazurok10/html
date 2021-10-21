@@ -1,0 +1,57 @@
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.back_1{
+    background: lightgreen;
+}
+.back_2{
+    background: plum;
+}
+.back_3{
+    background: lightsteelblue;
+}
+.height200{
+    height: 200px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.margin{
+    margin:10px;
+}
+.display{
+    display: flex;
+}
+.wh20{
+    width: 20%;
+}
+.wh80{
+    width: 80%;
+}
+.height300{
+    height: 300px;
+}
+.border{
+    border:2px solid black;
+}
+.margin_0{
+    margin:0 auto;
+}
+.wh1000{
+    width: 1000px;
+}
+.gap{
+    column-gap: 10px;
+}
+.marg{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:0;
+}
+.marg_top{
+    margin-top: 10px;
+}
