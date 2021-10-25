@@ -1,0 +1,68 @@
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.container{
+    background: white;
+    margin: 0 auto;
+    padding:5px;
+    width: 1000px;
+    box-sizing: border-box;
+    border: 20px solid white;
+}
+.header{
+    background: cadetblue;
+    height:100px;
+    margin-bottom: 10px;
+}
+.object{
+    display: flex;
+}
+.object_1{
+    width:30%;
+}
+.object_2{
+    width:70%;
+    margin-left: 5px;
+}
+.hero{
+    height:300px;
+    background:plum ;
+    margin-bottom: 10px;
+}
+.sidebar{
+    height: 400px;
+    background: darkolivegreen;
+}
+.main{
+    height:500px;
+    background: goldenrod;
+    margin-bottom: 10px;
+}
+.extra{
+    height:200px;
+    background: dimgrey;
+}
+.object_3{
+    display: flex;
+    margin-top: 10px;
+}
+.related{
+    width: 70%;
+    height:200px;
+    background: forestgreen;
+    margin-right: 5px;
+}
+.posts{
+    width: 30%;
+    height: 200px;
+    background: palevioletred;
+}
+.footer{
+    background: darkgoldenrod;
+    height:100px;
+    margin-top: 10px;
+}
