@@ -1,0 +1,153 @@
+@media screen and (max-width: 480px) {
+
+    .display_1 {
+        display: block;
+    }
+
+    .margin__top10 {
+        margin-top: 5px;
+    }
+
+    .color__blue {
+        color: #102642;
+        font-size: 18px;
+    }
+
+    .margin__left50 {
+        margin-left: 10px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .margin__left_50 {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .display_1 {
+        display: block;
+    }
+
+    .color__blue {
+        color: #102642;
+        font-size: 18px;
+    }
+
+    .margin__left50 {
+        margin-left: 10px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .margin__left_50 {
+        margin-left: 100px;
+    }
+
+    .margin__left_media {
+        margin-left: 70px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .display_1 {
+        display: block;
+    }
+
+    .block__center {
+        margin: 0 auto;
+    }
+
+    .margin__left_media {
+        margin-left: 0;
+    }
+    .margin__top_media{
+        margin-top: 10px;
+    }
+    .none {
+        display: block;
+    }
+
+    .margin__left_50 {
+        margin-left: 10px;
+    }
+
+    .margin__left35 {
+        margin-left: 2px;
+    }
+    .text__center{
+        text-align: center;
+    }
+    .col_gap{
+        column-gap: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .display_1 {
+        display: flex;
+    }
+
+    .margin__top10 {
+        margin-top: 10px;
+    }
+
+    .col_gap {
+        column-gap: 30px;
+    }
+    .margin__left35{
+        margin-left: 20px;
+    }
+    .col_gap20{
+        column-gap: 30px;
+    }
+    .margin__left_media{
+        margin-left: 5px;
+    }
+    .text__center1{
+        text-align: start;
+    }
+    .margin__left170{
+        margin-left: 250px;
+    }
+    .margin__left50{
+        margin-left: 60px;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+    .display_1 {
+        display: flex;
+    }
+
+    .margin__top10 {
+        margin-top: 10px;
+    }
+    .space__bet{
+        justify-content: space-between;
+    }
+    .margin__left20{
+        margin-left: 5px;
+    }
+    .text{
+        color: #102642;
+        font-size: 30px;
+    }
+    .margin__right5{
+        margin-right: 10px;
+    }
+    .wh450{
+        width: 500px;
+        height:200px;
+    }
+    .marg__top50{
+        margin-top: 50px;
+    }
+}
+
