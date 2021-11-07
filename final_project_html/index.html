@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&family=Tinos:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<div class="header__top">
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid padding__left-page">
+            <a class="navbar-brand image_header_top-location" href="#"><img src="image/location.png" alt="Location"></a>
+            <a class="nav-link active" aria-current="page" href="#">Ваш город: <span
+                    class="text__decoration-city">Москва</span></a>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown padding__left-information">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Информация
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">О нас</a></li>
+                        <li><a class="dropdown-item" href="#">История</a></li>
+                        <li><a class="dropdown-item" href="#">Сотрудники</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Сотрудничество
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Компания</a></li>
+                        <li><a class="dropdown-item" href="#">Выгода</a></li>
+                        <li><a class="dropdown-item" href="#">Условия</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown"
+                    aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+                Еще
+            </button>
+            <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+                <ul class="navbar-nav padding__left-delivery column-gap-top">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Доставка</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Оплата</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Гарантия</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Журнал</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">О магазине</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="header__main padding__left-page">
+    <div class="header__main-top">
+        <div class="row center-block">
+            <div class="col-xl-2 d-flex center-block block_logo">
+                <img src="image/logo.png" alt="Logo" class="image_logo">
+                <div class="wh-50">
+                    <h4>AVT-ZAP</h4>
+                    <p>Интернет-магазин запчастей
+                        для АКПП</p>
+                </div>
+            </div>
+            <div class="col-xl-3 display justify-content-center column__gap-time none block_time">
+                <img src="image/time.png" alt="Time" class="image_time">
+                <p>Мы работаем: будни - 9:00-21:00
+                    <br>сб. - 10:00-15:00</p>
+            </div>
+            <div class="col-xl-2 display column__gap-time justify-content-start none block_location">
+                <img src="image/location1.png" alt="Location" class="image_location">
+                <p class="mt-2">Невский пр-т, д. 45</p>
+            </div>
+            <div class="col-xl-2">
+                <button class="button__whatsapp display">
+                    <img src="image/whatsapp.png" alt="Whatsapp" class="margin__top_whatsapp">
+                    <p>Напишите нам в WhatsApp</p>
+                </button>
+            </div>
+            <div class="col-xl-2 block_phone">
+                <div class="number__end">
+                    <h5>+7 383 291 92 86</h5>
+                    <p class="text__number">форма обратной связи</p>
+                </div>
+            </div>
+            <div class="col-xl-2 block_whatsapp">
+                <button class="d-flex">
+                    <img src="image/whatsapp.png" alt="Whatsapp" class="margin__top_whatsapp">
+                    <p>Напишите нам в WhatsApp</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="header__main-bottom ">
+        <div class="col-xl-2">
+            <button type="button" class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                <div class="">
+                    <div class="line_bottom"></div>
+                    <div class="line_bottom"></div>
+                    <div class="line_bottom"></div>
+                </div>
+                Каталог
+            </button>
+        </div>
+        <div class="col-xl-5 d-flex">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Поиск" aria-label="Поиск"
+                       aria-describedby="input-group-button-right">
+                <button type="button" class="btn btn-outline-secondary" id="input-group-button-right">Найти</button>
+            </div>
+        </div>
+        <div class="col-xl-5 display padding__left-information column__gap-time column-gap_autorization center-block none">
+            <div class="d-flex border__right-autorization">
+                <img src="image/user.png" alt="User">
+                <p>Войти</p>
+            </div>
+            <div class="d-flex border__right-autorization column-gap_autorization">
+                <img src="image/liked.png" alt="Liked">
+                <p>Избранное</p>
+            </div>
+            <div class="d-flex column-gap_autorization">
+                <img src="image/cart.png" alt="Cart">
+                <p>В корзине
+                    нет товаров</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main__slide display padding__left-page">
+    <div class="col-xl-7 slider">
+        <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner back">
+                <div class="carousel-item d-flex">
+                    <div class="col-xl-6 text__slider">
+                        <h5>Сцепление в сборе</h5>
+                        <p class="slider__promo">0AMCLUTCH</p>
+                        <div class="d-flex">
+                            <h6>14 499,99 ₽</h6>
+                            <p class="slider__text-price">18 550,99 ₽ </p>
+                        </div>
+                        <button type="button"
+                                class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                            <div>
+                                <img src="image/cart-button.png" alt="Buy">
+                            </div>
+                            В корзину
+                        </button>
+                    </div>
+                    <div class="col-xl-6">
+                        <img src="image/avt-zap_main_page.png" alt="Slide 1"
+                             class="d-block slider__image_main">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                </div>
+                <div class="carousel-item active">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselWithControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselWithControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="col-xl-5 ">
+        <div class="block__offer">
+            <p class="text__offer-name">Акция</p>
+            <div class="d-flex">
+                <img src="image/avt-zap_main_page_v01.png" alt="Detail_1">
+                <div>
+                    <p class="text__offer-name">Обгонная муфта
+                        <br>гидротрансформатор <br><span class="text__offer-model">BW-SP-2 SONNAX</span></p>
+                </div>
+            </div>
+            <div class="d-flex text__price-offer">
+                <div class="text__price-offer">
+                    <h6>4 430₽</h6>
+                    <p class="text__non-price">5 430₽</p>
+                </div>
+                <button type="button" class="btn btn-primary btn__end-offer btn__left-offer"><img
+                        src="image/cart-button.png" alt="Cart"></button>
+            </div>
+        </div>
+        <div class="block__offer-second">
+            <p class="text__offer-name">Акция</p>
+            <div class="d-flex">
+                <img src="image/avt-zap_main_page_v02.png" alt="Detail_2">
+                <div>
+                    <p class="text__offer-name">Комплект фрикционных
+                        <br>дисков <br><span class="text__offer-model">BW-SP-2 SONNAX</span></p>
+                </div>
+            </div>
+            <div class="d-flex text__price-offer">
+                <div class="text__price-offer">
+                    <h6>4 430₽</h6>
+                    <p class="text__non-price">5 430₽</p>
+                </div>
+                <button type="button" class="btn btn-primary btn__end-offer btn__left-offer"><img
+                        src="image/cart-button.png" alt="Cart"></button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="display column-gap__main_menu align-items-end menu__phone space-around-bottom">
+    <div>
+        <img src="image/main_menu.png" alt="Main">
+    </div>
+    <div>
+        <img src="image/liked_menu.png" alt="Liked">
+    </div>
+    <div>
+        <img src="image/cart_menu.png" alt="Cart">
+    </div>
+    <div>
+        <img src="image/profile_menu.png" alt="Profile">
+    </div>
+</div>
+<div class="main__products padding__left-page">
+    <div class="display">
+        <div class="col-xl-3 display main__product_1 center-block">
+            <div class="col-xl-6">
+                <h5>Масла</h5>
+                <p>Трансмиссионное масло;
+                    <br>присалка в масло акпп</p>
+                <button type="button" class="btn btn-primary">Перейти</button>
+            </div>
+            <div class="col-xl-6">
+                <img src="image/avt-zap_product_1.png" alt="Oil">
+            </div>
+        </div>
+        <div class="col-xl-3 display main__product_2 center-block">
+            <div class="col-xl-6">
+                <h5>Фильтры</h5>
+                <p>Масляный фильтр;
+                    <br>фильтр воздушный</p>
+                <button type="button" class="btn btn-primary">Перейти</button>
+            </div>
+            <div class="col-xl-6">
+                <img src="image/avt-zap_products_2.png" alt="Filter">
+            </div>
+        </div>
+        <div class="col-xl-3 display main__product_3 center-block">
+            <div class="col-xl-6">
+                <h5>Радиаторы</h5>
+                <p>Дополнительные
+                    <br>радиаторы</p>
+                <button type="button" class="btn btn-primary">Перейти</button>
+            </div>
+            <div class="col-xl-6">
+                <img src="image/avt-zap_products_3.png" alt="Radiator">
+            </div>
+        </div>
+    </div>
+    <div class="main__menu-button">
+        <div class="display column-gap__main_menu">
+            <button type="button" class="btn btn-primary">Подборка товаров</button>
+            <button type="button" class="btn btn-outline-primary">Акции</button>
+            <button type="button" class="btn btn-outline-primary">Сейчас покупают</button>
+        </div>
+    </div>
+</div>
+<div class="main__menu padding__left-page">
+    <div class="display ">
+        <div class="col-xl-3">
+            <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Intermediate accumelator sleeve</h6>
+            <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3">
+            <img src="image/avt-zap_catalogue_2.png" alt="Catalogue_2">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Комплект фрикционных дисков</h6>
+            <p class="text-price-catalogue">4 430₽ <span class="text__non-price">5 430₽</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3">
+            <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Intermediate accumelator sleeve</h6>
+            <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3">
+            <img src="image/avt-zap_catalogue_3.png" alt="Catalogue_3">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Intermediate accumelator sleeve</h6>
+            <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main__menu padding__left-page">
+    <hr>
+    <div class="display ">
+        <div class="col-xl-3">
+            <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Intermediate accumelator sleeve</h6>
+            <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3">
+            <img src="image/avt-zap_catalogue_2.png" alt="Catalogue_2">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Комплект фрикционных дисков</h6>
+            <p class="text-price-catalogue">4 430₽ <span class="text__non-price">5 430₽</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3">
+            <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Intermediate accumelator sleeve</h6>
+            <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3">
+            <img src="image/avt-zap_catalogue_3.png" alt="Catalogue_3">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Intermediate accumelator sleeve</h6>
+            <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button type="button" class="btn btn-outline-primary center-button-catalogue">Показать еще</button>
+    </div>
+</div>
+<div class="main__bottom padding__left-page">
+    <h4>Новости</h4>
+    <div class="border__top-news">
+        <div class="display space-around-bottom">
+            <div>
+                <img src="image/Group_3_nov.png" alt="News_1" class="image__new">
+                <p class="margin__top-news">Изменения на сайте</p>
+                <p>Недавно на сайте мы ввели
+                    очередную порцию изменений,
+                    которые, как нам кажется, должны
+                    улучшить функциональность сайта
+                    и сделать его более удобным для
+                    пользователей. Реакция посетителей
+                    не заставила себя долго ждать...</p>
+            </div>
+            <div>
+                <img src="image/Group%20_2.png" alt="News_2" class="image__new">
+                <p class="margin__top-news">Изменения на сайте</p>
+                <p>Что нового в 2.0:
+                    <br>— добавлена история поиска;
+                    <br>— добавлена синхронизация с сервером;
+                    <br>— испрвление ошибок.</p>
+            </div>
+            <div>
+                <img src="image/Group%201.png" alt="News_3" class="image__new">
+                <p class="margin__top-news">Очередная порция обновлений для
+                    мобильных приложений</p>
+                <p>Что нового добавлено:
+                    <br>— поддержка пуш-уведомлений;
+                    <br>— разделы для покупателей;
+                    <br>— просмотр покупателя в заказах;
+                    <br>— возможность поиска;
+                    <br>— исправление ошибок.</p>
+            </div>
+            <div>
+                <img src="image/Group%204.png" alt="News_4" class="image__new">
+                <p class="margin__top-news">Интерфейс заказов для покупателей
+                    стал более функциональным</p>
+                <p>Он позволяет выводить все
+                    формируемые системой
+                    уведомления(e-mail, смс, web) в
+                    едином окне с системой удобной
+                    фильтрации поиска.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer padding__left-page">
+    <div class="display space-between-footer">
+        <div class="col-xl-2">
+            <h5>КАТАЛОГ
+            </h5>
+            <p>Каталог запчастей</p>
+            <p>Масла</p>
+            <p>Фильтра</p>
+            <p>Радиаторы</p>
+            <p>Sonnax</p>
+            <p>Manual</p>
+            <p>Новинки</p>
+            <p>Акции</p>
+        </div>
+        <div class="col-xl-2">
+            <h5>РУБРИКАТОР
+            </h5>
+            <p>Доставка</p>
+            <p>Оплата</p>
+            <p>Гарантия</p>
+            <p>Новости</p>
+            <p>Журнал</p>
+            <p>О магазине</p>
+            <p>Контактная информация</p>
+        </div>
+        <div class="col-xl-2">
+            <h5>ИНФОРМАЦИЯ
+            </h5>
+            <p>Пользовательское соглашение
+                об использовании персональных данных</p>
+            <p>Политика конфиденциальности</p>
+            <p>Соглашение на рассылку
+                рекламных материалов</p>
+            <p>Политика возвратов</p>
+            <div>
+                <p class="margin__top-news">Мы принимаем</p>
+                <img src="image/cards.png" alt="Cards">
+            </div>
+        </div>
+        <div class="col-xl-3 ">
+            <h5>КОНТАКТЫ
+            </h5>
+            <p>+7 383 291 92 86
+                <br>info@avt-zap.ru
+            </p>
+            <p class="margin__top-news">Мы онлайн, воспользуйтесь</p>
+            <p>Подпишитесь на нашу расслыку и
+                вы первыми узнаете о скидках и акциях</p>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Введите email" aria-label="Введите email"
+                       aria-describedby="input-group-button-right">
+                <button type="button" class="btn btn-outline-secondary" id="input-group-button-right">Подписаться
+                </button>
+            </div>
+            <div class="display social__footer">
+                <img src="image/facebook.png" alt="Facebook">
+                <img src="image/telegram.png" alt="Telegram">
+                <img src="image/twitter.png" alt="Twitter">
+                <img src="image/google.png" alt="Google">
+            </div>
+        </div>
+        <div class="col-xl-2 ">
+            <h5>АДРЕС
+            </h5>
+            <p>г. Новосибирск,
+                <br>ул. Планировочная, 5, офис 105
+            </p>
+            <p>Форма обратной связи</p>
+        </div>
+    </div>
+</div>
+<div class="footer__bottom padding__left-page">
+    <p>2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
+</div>
+
+<div class="display column-gap__main_menu align-items-end menu__phone space-around-bottom">
+    <div>
+        <img src="image/main_menu.png" alt="Main">
+    </div>
+    <div>
+        <img src="image/liked_menu.png" alt="Liked">
+    </div>
+    <div>
+        <img src="image/cart_menu.png" alt="Cart">
+    </div>
+    <div>
+        <img src="image/profile_menu.png" alt="Profile">
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+</html>
