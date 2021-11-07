@@ -1,0 +1,370 @@
+.header {
+    background-color: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: rgba(0, 0, 0, .55);
+}
+
+.first-screen-left h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.first-screen-text {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 120px;
+    position: relative;
+}
+
+.first-screen-left {
+    margin-top: 103px;
+    padding-left: 100px;
+}
+
+.first-screen-left p::before,
+.first-screen-left p::after {
+    content: "";
+    background-color: #EDEFF3;
+    display: block;
+    height: 7px;
+    position: absolute;
+    width: 227px;
+}
+
+.first-screen-left p::before {
+    top: -55px;
+}
+
+.first-screen-left p::after {
+    bottom: -55px;
+}
+
+.first-screen-right img {
+    width: 100%;
+}
+
+.second-screen-text {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.second-screen-right img {
+    width: 100%;
+}
+
+.second-screen-left h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+}
+
+.main-screen-right {
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+
+.main-screen-right h2 {
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height, or 200% */
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+    margin-left: 180px;
+}
+
+.main-screen-text {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+    width: 60%;
+    margin-left: 180px;
+}
+
+.main-screen-text_2 {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.second-main-left h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+}
+
+.second-main-left {
+    margin-top: 91px;
+}
+
+.second-main-right img {
+    width: 80%;
+    margin-left: 150px;
+}
+
+.column_gap {
+    column-gap: 10px;
+}
+
+.column_gap-advantage {
+    column-gap: 20px;
+}
+
+.advantage-item {
+    min-width: 380px;
+    height: 120px;
+}
+
+.content-data {
+    margin-top: 67px;
+    text-align: center;
+}
+
+.content-data h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+    letter-spacing: 4.42px;
+    color: #020303;
+}
+
+.border-advantage {
+    background: #FFFFFF;
+    /* Drop Shadow Vorteile Card */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.img_advantage {
+    width: 60px;
+    height: 50px;
+}
+
+.img_advantage_1 {
+    width: 50px;
+    height: 50px;
+}
+
+.margin-left-advantage {
+    margin-left: 120px;
+}
+
+.margin_top-advantage {
+    margin-top: 10px;
+}
+
+.center-advantage {
+    display: flex;
+    align-items: center;
+}
+
+.content-data p {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 32px;
+    /* or 168% */
+    letter-spacing: -0.4px;
+    color: #45494F;
+}
+
+.content-facts {
+    max-width: 1300px;
+}
+
+.content-parameters h2 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+    letter-spacing: 4.42px;
+    color: #020303;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content-parameters {
+    background: #FFFFFF;
+    /* Drop Shadow Vorteile Card */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    margin-top: 10px;
+
+}
+
+.text-content-facts {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 35px;
+    /* or 209% */
+    letter-spacing: -0.4px;
+    color: #45494F;
+}
+
+.picture-content h2 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    /* or 143% */
+    text-align: center;
+    letter-spacing: 4.42px;
+    color: #020303;
+    margin-top: 70px;
+}
+
+.picture-content {
+    margin-top: 75px;
+}
+
+.center-carousel {
+    margin-left: 428px;
+}
+
+.picture-content img {
+    width: 50%;
+}
+
+.margin_0 {
+    margin: 0;
+}
+
+.slider-blocks {
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.21);
+    border-radius: 12px;
+
+}
+
+.picture-content p {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 40px;
+    /* or 235% */
+    letter-spacing: 1.42px;
+    color: #FAFBFE;
+}
+
+.center-block-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center__slider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.center__btn {
+    align-items: center;
+    column-gap: 10px;
+}
+
+.contact h3 {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    /* or 126% */
+    letter-spacing: -0.4px;
+    color: #1652AC;
+    padding-left: 100px;
+}
+
+.contact {
+    margin: 0 auto;
+    width: 1440px;
+    padding-top: 77px;
+    padding-bottom: 77px;
+    border-top: 2px solid #EEF0F4;;
+    border-bottom: 2px solid #EEF0F4;;
+
+}
+
+.logo_contact {
+    padding-left: 50px;
+}
+
+.slider {
+    padding-bottom: 82px;
+}
+
+.contact span {
+    color: #1652AC;
+}
+
+.footer h5 {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 188% */
+    letter-spacing: -0.4px;
+    color: #A3ADBA;
+}
+
+.footer p {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    /* or 188% */
+    letter-spacing: -0.4px;
+    color: #9EABBB;
+}
+
+.footer span {
+    color: #1652AC;
+}
+
+.footer {
+    padding-left: 150px;
+    padding-top: 50px;
+    width: 1440px;
+    margin: 0 auto;
+    column-gap: 200px;
+}
+
+.padding__top {
+    padding-top: 40px;
+}
