@@ -191,39 +191,48 @@
     .menu__phone {
         display: flex;
     }
+
     .text-price-catalogue {
-        margin-top:15px;
+        margin-top: 15px;
     }
+
     .center-button-catalogue {
         margin-left: 100px;
         margin-top: 20px;
     }
+
     .main__bottom h4 {
         padding-top: 5px;
     }
+
     .border__top-news {
-        border-top:none;
+        border-top: none;
         position: relative;
         width: 1500px;
     }
-    .display_block{
+
+    .display_block {
         display: block;
     }
-    .main__bottom{
+
+    .main__bottom {
         display: block;
     }
+
     .margin__top-news {
         padding-top: 60px;
         margin-top: 50px;
     }
-    .slider h5{
+
+    .slider h5 {
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
         /* identical to box height */
         color: #0A1A2C;
     }
-    .slider__promo{
+
+    .slider__promo {
         font-weight: normal;
         font-size: 10px;
         line-height: 12px;
@@ -231,91 +240,724 @@
         text-decoration-line: underline;
         color: #717171;
     }
-    .slider h6{
+
+    .slider h6 {
         font-weight: 500;
         font-size: 20px;
         line-height: 23px;
         color: #005BB9;
     }
-    .slider__text-price{
+
+    .slider__text-price {
         font-weight: normal;
         font-size: 14px;
         line-height: 16px;
         text-decoration-line: line-through;
         color: #C2C5DA;
     }
+
     .slider .carousel-inner {
         position: relative;
         width: 1000px;
-        height:auto ;
+        height: auto;
         overflow: hidden;
     }
-    .slider{
+
+    .slider {
         width: auto;
     }
-    .margin__top20_slider{
+
+    .margin__top20_slider {
         margin-top: 20px;
     }
+
     .text__slider {
         padding-top: 100px;
         padding-left: 20px;
     }
+
     .slider__image_main {
-        width: 30%!important;
+        width: 30% !important;
         height: auto;
         padding-top: 50px;
     }
+
     .block__offer {
         margin-top: 100px;
 
     }
+
     .text__slider {
         padding-top: 50px;
         padding-left: 100px;
     }
+
     .text__slider {
-        padding-top:auto;
+        padding-top: auto;
         padding-left: 20px;
         padding-bottom: 50px;
     }
-    .adress_footer_1{
+
+    .adress_footer_1 {
         display: block;
     }
-    .adress_footer_2{
+
+    .adress_footer_2 {
         display: none;
     }
-    .social__footer{
+
+    .social__footer {
         padding-bottom: 20px;
         display: flex;
         justify-content: space-evenly;
     }
-    .oil__product{
+
+    .oil__product {
         width: 80%;
     }
-    .filter__product{
+
+    .filter__product {
         width: 80%;
     }
-    .radiator__product{
+
+    .radiator__product {
         width: 80%;
-        margin-left: 30px!important;
+        margin-left: 30px !important;
     }
+
     .main__product_1 {
         margin-left: 0;
         width: 98%;
         padding-bottom: 10px;
     }
+
     .main__product_2 {
         margin-left: 0;
         width: 98%;
         padding-bottom: 10px;
     }
+
     .main__product_3 {
         margin-left: 0;
         width: 98%;
         padding-bottom: 10px;
     }
+
     .image-1__catalogue {
         width: 80%;
     }
 }
 
+@media screen and (min-width: 401px) and (max-width: 575px) {
+    .padding__left-page {
+        padding-left: 5px;
+    }
+
+    .header__top img {
+        display: none;
+    }
+
+    .input-group {
+        width: 320px;
+    }
+
+    .padding__left-information {
+        padding-left: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .padding__left-delivery {
+        padding: 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: white;
+        border-color: #0F2438;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("Chevron Right 1.png");
+        width: 10px;
+        height: 12px;
+    }
+
+    .navbar {
+        padding-top: 0;
+    }
+
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .image_logo {
+        width: 20%;
+    }
+
+    .flex-start-header {
+        align-items: flex-start;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .block_whatsapp {
+        display: flex;
+        column-gap: 6px;
+    }
+
+    .button__whatsapp {
+        display: none;
+    }
+
+    .slider {
+        width: 290px;
+        height: 200px;
+    }
+
+    .main__slide {
+        display: block;
+    }
+
+    .main__menu_2 {
+        display: flex;
+        padding-top: 10px;
+    }
+
+    .hr_2 {
+        display: flex;
+        width: 1450px;
+        height: 2px;
+    }
+
+    .main__product_1 {
+        margin-left: 0;
+        width: 98%;
+    }
+
+    .main__product_2 {
+        margin-left: 0;
+        width: 98%;
+        margin-top: 10px;
+    }
+
+    .main__product_3 {
+        margin-left: 0;
+        width: 98%;
+        margin-top: 10px;
+    }
+
+    .main__products {
+        display: block;
+        padding-top: 20px;
+
+    }
+
+    .block__offer {
+        margin-top: 250px;
+        width: 98%;
+        margin-left: 0;
+        height: 190px;
+        background: #F4F5FA;
+        border-radius: 10px;
+        padding: 20px 15px;
+    }
+
+    .header__main-bottom {
+        justify-content: space-between;
+    }
+
+    .block__offer-second {
+        width: 98%;
+        margin-left: 0;
+        margin-top: 10px;
+        height: 190px;
+        background: #F4F5FA;
+        border-radius: 10px;
+        padding: 20px 15px;
+    }
+
+    .image-1__catalogue {
+        width: 90%;
+    }
+
+    .image-diagram {
+        display: none;
+    }
+
+    .block_1-catalogue {
+        width: auto;
+    }
+
+    block_2-catalogue {
+        width: 40%;
+    }
+
+    .col-gap-catalogue {
+        column-gap: 5px;
+    }
+
+    .block_3-catalogue {
+        display: none;
+    }
+
+    .block_4-catalogue {
+        display: none;
+    }
+
+    .btn-width-catalogue {
+        width: 150px;
+    }
+
+    .margin__top2__catalogue {
+        margin-top: 2px;
+    }
+
+    .wh-300 {
+        width: 300px;
+        padding-right: 10px;
+
+    }
+
+    .header__main-catalogue {
+        display: none;
+    }
+
+    .header__main-bottom {
+        padding-top: 25px;
+        display: flex;
+        padding-bottom: 20px;
+        column-gap: 20px;
+    }
+
+    .image-like {
+        margin-left: 10px;
+    }
+
+    .wh-185 {
+        width: 185px;
+    }
+
+    .menu__phone {
+        display: none;
+    }
+
+    .menu__phone_1 {
+        display: flex;
+        background: #FFFFFF;
+        position: relative;
+        z-index: 1;
+        margin-bottom: -30px;
+    }
+
+    .main__menu-button {
+        padding-top: 2px;
+        position: relative;
+    }
+
+    .text-price-catalogue {
+        margin-top: 15px;
+    }
+
+    .center-button-catalogue {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+    .main__bottom h4 {
+        padding-top: 5px;
+    }
+
+    .border__top-news {
+        border-top: none;
+        position: relative;
+        width: 1500px;
+    }
+
+    .display_block {
+        display: block;
+    }
+
+    .main__bottom {
+        display: block;
+    }
+
+    .margin__top-news {
+        padding-top: 60px;
+        margin-top: 50px;
+    }
+
+    .slider h5 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        color: #0A1A2C;
+    }
+
+    .slider__promo {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        /* identical to box height */
+        text-decoration-line: underline;
+        color: #717171;
+    }
+
+    .slider h6 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #005BB9;
+    }
+
+    .slider__text-price {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: line-through;
+        color: #C2C5DA;
+    }
+
+    .slider .carousel-inner {
+        position: relative;
+        width: 1000px;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .slider {
+        width: auto;
+    }
+
+    .margin__top20_slider {
+        margin-top: 20px;
+    }
+
+    .text__slider {
+        padding-top: 100px;
+        padding-left: 20px;
+    }
+
+    .slider__image_main {
+        width: 30% !important;
+        height: auto;
+        padding-top: 50px;
+        margin-left: 60px;
+    }
+
+    .block__offer {
+        margin-top: 100px;
+
+    }
+
+    .text__slider {
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+
+    .text__slider {
+        padding-top: auto;
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+
+    .adress_footer_1 {
+        display: block;
+    }
+
+    .adress_footer_2 {
+        display: none;
+    }
+
+    .social__footer {
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .oil__product {
+        width: 80%;
+    }
+
+    .filter__product {
+        width: 80%;
+    }
+
+    .radiator__product {
+        width: 80%;
+        margin-left: 30px !important;
+    }
+
+    .main__product_1 {
+        margin-left: 0;
+        width: 98%;
+        padding-bottom: 10px;
+    }
+
+    .main__product_2 {
+        margin-left: 0;
+        width: 98%;
+        padding-bottom: 10px;
+    }
+
+    .main__product_3 {
+        margin-left: 0;
+        width: 98%;
+        padding-bottom: 10px;
+    }
+
+    .image-1__catalogue {
+        width: 80%;
+    }
+
+    .block__offer {
+        max-width: 98%;
+    }
+
+    .block__offer-second {
+        max-width: 98%;
+    }
+
+    .main__bottom p {
+        max-width: 400px;
+    }
+
+    .main__product_1, .main__product_2, .main__product_3 {
+        margin-left: 0;
+        display: flex;
+        width: 98%;
+        padding-bottom: 10px;
+        justify-content: space-around;
+    }
+
+    .block_phone {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .block_whatsapp {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 950px) {
+    .padding__left-page {
+        padding-left: 5px;
+    }
+
+    .input-group {
+        width: auto;
+    }
+
+    .padding__left-information {
+        padding-left: 0;
+    }
+
+    .padding__left-delivery {
+        padding: 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: white;
+        border-color: #0F2438;
+        margin-left: 260px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("Chevron Right 1.png");
+        width: 10px;
+        height: 12px;
+    }
+
+    .navbar {
+        padding-top: 0;
+    }
+
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+
+    .block_4-catalogue {
+        display: none;
+    }
+
+    .block_whatsapp {
+        display: flex;
+        column-gap: 6px;
+    }
+
+    .button__whatsapp {
+        display: none;
+    }
+
+    .display__header-time {
+        display: block;
+    }
+
+    .block_location_1 {
+        display: flex;
+    }
+
+    .block_location {
+        display: none;
+    }
+
+    .flex-dir-colum {
+        flex-direction: column;
+    }
+
+    .header__main-bottom {
+        column-gap: 10px;
+    }
+
+    .margin__top5-btn {
+        margin-top: 5px;
+    }
+
+    .main__bottom p {
+        max-width: 200px;
+    }
+
+    .space-around-bottom {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .menu__phone_1 {
+        display: none;
+    }
+
+    .menu__phone {
+        display: none;
+    }
+
+    .space-between-footer {
+        display: flex;
+        column-gap: 10px;
+        justify-content: space-between;
+    }
+
+    .center-button-catalogue {
+        margin-top: 20px;
+        margin-left: 350px;
+    }
+
+    .justify-cont-around {
+        justify-content: space-around;
+    }
+
+    .main__product_3 {
+        overflow: hidden;
+    }
+
+    .main__products {
+        padding-top: 70px;
+        column-gap: 5px;
+        display: flex;
+        margin-left: -20px;
+    }
+
+    .slider .carousel-inner {
+        position: relative;
+        width: 1000px;
+        height: auto;
+        overflow: hidden;
+    }
+    .main__product_3{
+        margin-left: 0;
+    }
+    .main__product_2{
+        margin-left: 0;
+    }
+
+    .slider {
+        width: 60%;
+    }
+    .slider h5 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        color: #0A1A2C;
+    }
+
+    .slider__promo {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        /* identical to box height */
+        text-decoration-line: underline;
+        color: #717171;
+    }
+
+    .slider h6 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #005BB9;
+    }
+
+    .slider__text-price {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: line-through;
+        color: #C2C5DA;
+    }
+    .block__offer{
+        height: auto;
+    }
+    .block__offer-second{
+        height: auto;
+    }
+
+    .margin__top20_slider {
+        margin-top: 20px;
+    }
+
+    .text__slider {
+        padding-top: 100px;
+        padding-left: 20px;
+    }
+
+    .slider__image_main {
+        width: 30% !important;
+        height: auto;
+        padding-top: 50px;
+        margin-left: 100px;
+    }
+
+
+    .text__slider {
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+
+    .text__slider {
+        padding-top: auto;
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+
+}

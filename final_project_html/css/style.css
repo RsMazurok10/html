@@ -374,11 +374,11 @@ img, svg {
 }
 
 .main__product_2 img {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .main__product_3 img {
-    margin-left: -5px;
+    margin-left: -30px;
 }
 
 .main__menu-button {
@@ -601,4 +601,17 @@ img, svg {
 .menu__phone_1{
     display: none;
 }
-
+.display__header-time{
+    display: contents;
+}
+.block_location_1{
+    display: none;
+}
+.center-block {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.footer__bottom_contact{
+    display: none;
+}
