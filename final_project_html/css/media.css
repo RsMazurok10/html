@@ -1,0 +1,321 @@
+@media screen and (max-width: 400px) {
+    .padding__left-page {
+        padding-left: 5px;
+    }
+
+    .header__top img {
+        display: none;
+    }
+
+    .padding__left-information {
+        padding-left: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .padding__left-delivery {
+        padding: 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: white;
+        border-color: #0F2438;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("Chevron Right 1.png");
+        width: 10px;
+        height: 12px;
+    }
+
+    .navbar {
+        padding-top: 0;
+    }
+
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .image_logo {
+        width: 20%;
+    }
+
+    .flex-start-header {
+        align-items: flex-start;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .block_whatsapp {
+        display: flex;
+        column-gap: 6px;
+    }
+
+    .button__whatsapp {
+        display: none;
+    }
+
+    .slider {
+        width: 290px;
+        height: 200px;
+    }
+
+    .main__slide {
+        display: block;
+    }
+
+    .main__menu_2 {
+        display: flex;
+        padding-top: 10px;
+    }
+
+    .hr_2 {
+        display: flex;
+        width: 1450px;
+        height: 2px;
+    }
+
+    .main__product_1 {
+        margin-left: 0;
+        width: 98%;
+    }
+
+    .main__product_2 {
+        margin-left: 0;
+        width: 98%;
+        margin-top: 10px;
+    }
+
+    .main__product_3 {
+        margin-left: 0;
+        width: 98%;
+        margin-top: 10px;
+    }
+
+    .main__products {
+        display: block;
+        padding-top: 0;
+
+    }
+
+    .block__offer {
+        margin-top: 250px;
+        width: 98%;
+        margin-left: 0;
+        height: 190px;
+        background: #F4F5FA;
+        border-radius: 10px;
+        padding: 20px 15px;
+    }
+
+    .block__offer-second {
+        width: 98%;
+        margin-left: 0;
+        margin-top: 10px;
+        height: 190px;
+        background: #F4F5FA;
+        border-radius: 10px;
+        padding: 20px 15px;
+    }
+
+    .image-1__catalogue {
+        width: 90%;
+    }
+
+    .image-diagram {
+        display: none;
+    }
+
+    .block_1-catalogue {
+        width: 50%;
+    }
+
+    block_2-catalogue {
+        width: 40%;
+    }
+
+    .col-gap-catalogue {
+        column-gap: 5px;
+    }
+
+    .block_3-catalogue {
+        display: none;
+    }
+
+    .block_4-catalogue {
+        display: none;
+    }
+
+    .btn-width-catalogue {
+        width: 150px;
+    }
+
+    .margin__top2__catalogue {
+        margin-top: 2px;
+    }
+
+    .wh-300 {
+        width: 300px;
+    }
+
+    .header__main-catalogue {
+        display: none;
+    }
+
+    .header__main-bottom {
+        padding-top: 25px;
+        display: flex;
+        padding-bottom: 20px;
+        column-gap: 20px;
+    }
+
+    .image-like {
+        margin-left: 10px;
+    }
+
+    .wh-185 {
+        width: 185px;
+    }
+
+    .menu__phone {
+        display: flex;
+    }
+    .text-price-catalogue {
+        margin-top:15px;
+    }
+    .center-button-catalogue {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .main__bottom h4 {
+        padding-top: 5px;
+    }
+    .border__top-news {
+        border-top:none;
+        position: relative;
+        width: 1500px;
+    }
+    .display_block{
+        display: block;
+    }
+    .main__bottom{
+        display: block;
+    }
+    .margin__top-news {
+        padding-top: 60px;
+        margin-top: 50px;
+    }
+    .slider h5{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        color: #0A1A2C;
+    }
+    .slider__promo{
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        /* identical to box height */
+        text-decoration-line: underline;
+        color: #717171;
+    }
+    .slider h6{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #005BB9;
+    }
+    .slider__text-price{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: line-through;
+        color: #C2C5DA;
+    }
+    .slider .carousel-inner {
+        position: relative;
+        width: 1000px;
+        height:auto ;
+        overflow: hidden;
+    }
+    .slider{
+        width: auto;
+    }
+    .margin__top20_slider{
+        margin-top: 20px;
+    }
+    .text__slider {
+        padding-top: 100px;
+        padding-left: 20px;
+    }
+    .slider__image_main {
+        width: 30%!important;
+        height: auto;
+        padding-top: 50px;
+    }
+    .block__offer {
+        margin-top: 100px;
+
+    }
+    .text__slider {
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+    .text__slider {
+        padding-top:auto;
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+    .adress_footer_1{
+        display: block;
+    }
+    .adress_footer_2{
+        display: none;
+    }
+    .social__footer{
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .oil__product{
+        width: 80%;
+    }
+    .filter__product{
+        width: 80%;
+    }
+    .radiator__product{
+        width: 80%;
+        margin-left: 30px!important;
+    }
+    .main__product_1 {
+        margin-left: 0;
+        width: 98%;
+        padding-bottom: 10px;
+    }
+    .main__product_2 {
+        margin-left: 0;
+        width: 98%;
+        padding-bottom: 10px;
+    }
+    .main__product_3 {
+        margin-left: 0;
+        width: 98%;
+        padding-bottom: 10px;
+    }
+    .image-1__catalogue {
+        width: 80%;
+    }
+}
+

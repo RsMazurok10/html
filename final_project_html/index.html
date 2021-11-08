@@ -81,7 +81,7 @@
 </div>
 <div class="header__main padding__left-page">
     <div class="header__main-top">
-        <div class="row center-block">
+        <div class="center-block flex-start-header">
             <div class="col-xl-2 d-flex center-block block_logo">
                 <img src="image/logo.png" alt="Logo" class="image_logo">
                 <div class="wh-50">
@@ -102,20 +102,22 @@
             <div class="col-xl-2">
                 <button class="button__whatsapp display">
                     <img src="image/whatsapp.png" alt="Whatsapp" class="margin__top_whatsapp">
-                    <p>Напишите нам в WhatsApp</p>
+                    <p>Напишите в WhatsApp</p>
                 </button>
             </div>
-            <div class="col-xl-2 block_phone">
-                <div class="number__end">
-                    <h5>+7 383 291 92 86</h5>
-                    <p class="text__number">форма обратной связи</p>
+            <div class="wh-300">
+                <div class="col-xl-2 block_phone">
+                    <div class="number__end">
+                        <h5>+7 383 291 92 86</h5>
+                        <p class="text__number">форма обратной связи</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xl-2 block_whatsapp">
-                <button class="d-flex">
-                    <img src="image/whatsapp.png" alt="Whatsapp" class="margin__top_whatsapp">
-                    <p>Напишите нам в WhatsApp</p>
-                </button>
+                <div class="col-xl-2 block_whatsapp">
+                    <button class="d-flex wh-185">
+                        <img src="image/whatsapp.png" alt="Whatsapp" class="margin__top_whatsapp">
+                        <p>Напишите в WhatsApp</p>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -127,7 +129,7 @@
                     <div class="line_bottom"></div>
                     <div class="line_bottom"></div>
                 </div>
-                Каталог
+                <p class="header__main-catalogue"> Каталог</p>
             </button>
         </div>
         <div class="col-xl-5 d-flex">
@@ -154,7 +156,7 @@
         </div>
     </div>
 </div>
-<div class="main__slide display padding__left-page">
+<div class="main__slide padding__left-page">
     <div class="col-xl-7 slider">
         <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner back">
@@ -167,7 +169,7 @@
                             <p class="slider__text-price">18 550,99 ₽ </p>
                         </div>
                         <button type="button"
-                                class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                                class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom margin__top20_slider">
                             <div>
                                 <img src="image/cart-button.png" alt="Buy">
                             </div>
@@ -248,53 +250,65 @@
     </div>
 </div>
 <div class="main__products padding__left-page">
-    <div class="display">
-        <div class="col-xl-3 display main__product_1 center-block">
-            <div class="col-xl-6">
-                <h5>Масла</h5>
-                <p>Трансмиссионное масло;
-                    <br>присалка в масло акпп</p>
-                <button type="button" class="btn btn-primary">Перейти</button>
-            </div>
-            <div class="col-xl-6">
-                <img src="image/avt-zap_product_1.png" alt="Oil">
-            </div>
+    <div class="col-xl-3 display main__product_1 center-block">
+        <div class="col-xl-6">
+            <h5>Масла</h5>
+            <p>Трансмиссионное масло;
+                <br>присалка в масло акпп</p>
+            <button type="button" class="btn btn-primary">Перейти</button>
         </div>
-        <div class="col-xl-3 display main__product_2 center-block">
-            <div class="col-xl-6">
-                <h5>Фильтры</h5>
-                <p>Масляный фильтр;
-                    <br>фильтр воздушный</p>
-                <button type="button" class="btn btn-primary">Перейти</button>
-            </div>
-            <div class="col-xl-6">
-                <img src="image/avt-zap_products_2.png" alt="Filter">
-            </div>
-        </div>
-        <div class="col-xl-3 display main__product_3 center-block">
-            <div class="col-xl-6">
-                <h5>Радиаторы</h5>
-                <p>Дополнительные
-                    <br>радиаторы</p>
-                <button type="button" class="btn btn-primary">Перейти</button>
-            </div>
-            <div class="col-xl-6">
-                <img src="image/avt-zap_products_3.png" alt="Radiator">
-            </div>
+        <div class="col-xl-6">
+            <img src="image/avt-zap_product_1.png" alt="Oil" class="oil__product">
         </div>
     </div>
-    <div class="main__menu-button">
-        <div class="display column-gap__main_menu">
-            <button type="button" class="btn btn-primary">Подборка товаров</button>
-            <button type="button" class="btn btn-outline-primary">Акции</button>
-            <button type="button" class="btn btn-outline-primary">Сейчас покупают</button>
+    <div class="col-xl-3 display main__product_2 center-block">
+        <div class="col-xl-6">
+            <h5>Фильтры</h5>
+            <p>Масляный фильтр;
+                <br>фильтр воздушный</p>
+            <button type="button" class="btn btn-primary">Перейти</button>
+        </div>
+        <div class="col-xl-6">
+            <img src="image/avt-zap_products_2.png" alt="Filter" class="filter__product">
+        </div>
+    </div>
+    <div class="col-xl-3 display main__product_3 center-block">
+        <div class="col-xl-6">
+            <h5>Радиаторы</h5>
+            <p>Дополнительные
+                <br>радиаторы</p>
+            <button type="button" class="btn btn-primary">Перейти</button>
+        </div>
+        <div class="col-xl-6">
+            <img src="image/avt-zap_products_3.png" alt="Radiator" class="radiator__product">
         </div>
     </div>
 </div>
+<div class="display column-gap__main_menu align-items-end menu__phone_1 space-around-bottom">
+    <div>
+        <img src="image/main_menu.png" alt="Main">
+    </div>
+    <div>
+        <img src="image/liked_menu.png" alt="Liked">
+    </div>
+    <div>
+        <img src="image/cart_menu.png" alt="Cart">
+    </div>
+    <div>
+        <img src="image/profile_menu.png" alt="Profile">
+    </div>
+</div>
+<div class="main__menu-button padding__left-page">
+    <div class="display column-gap__main_menu">
+        <button type="button" class="btn btn-primary">Подборка товаров</button>
+        <button type="button" class="btn btn-outline-primary">Акции</button>
+        <button type="button" class="btn btn-outline-primary">Сейчас покупают</button>
+    </div>
+</div>
 <div class="main__menu padding__left-page">
-    <div class="display ">
-        <div class="col-xl-3">
-            <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1">
+    <div class="display col-gap-catalogue">
+        <div class="col-xl-3 block_1-catalogue">
+            <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1" class="image-1__catalogue">
             <div class="display column-gap_autorization">
                 <img src="image/Star.png" alt="Top" class="image-star">
                 <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
@@ -303,7 +317,7 @@
             <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
             <div class="display">
                 <button type="button"
-                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom btn-width-catalogue ">
                     <div>
                         <img src="image/cart-button.png" alt="Buy">
                     </div>
@@ -315,8 +329,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-3">
-            <img src="image/avt-zap_catalogue_2.png" alt="Catalogue_2">
+        <div class="col-xl-3 block_1-catalogue">
+            <img src="image/avt-zap_catalogue_2.png" alt="Catalogue_2" class="image-1__catalogue">
             <div class="display column-gap_autorization">
                 <img src="image/Star.png" alt="Top" class="image-star">
                 <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
@@ -325,7 +339,7 @@
             <p class="text-price-catalogue">4 430₽ <span class="text__non-price">5 430₽</span></p>
             <div class="display">
                 <button type="button"
-                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom btn-width-catalogue margin__top2__catalogue">
                     <div>
                         <img src="image/cart-button.png" alt="Buy">
                     </div>
@@ -337,7 +351,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 block_3-catalogue">
             <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1">
             <div class="display column-gap_autorization">
                 <img src="image/Star.png" alt="Top" class="image-star">
@@ -359,7 +373,99 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 block_4-catalogue">
+            <img src="image/avt-zap_catalogue_3.png" alt="Catalogue_3">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Intermediate accumelator sleeve</h6>
+            <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main__menu_2 padding__left-page ">
+    <div class="display col-gap-catalogue">
+        <div class="col-xl-3 block_1-catalogue">
+            <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1" class="image-1__catalogue">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Intermediate accumelator sleeve</h6>
+            <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom btn-width-catalogue ">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 block_1-catalogue">
+            <img src="image/avt-zap_catalogue_2.png" alt="Catalogue_2" class="image-1__catalogue">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Комплект фрикционных дисков</h6>
+            <p class="text-price-catalogue">4 430₽ <span class="text__non-price">5 430₽</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom btn-width-catalogue margin__top2__catalogue">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 block_3-catalogue">
+            <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1">
+            <div class="display column-gap_autorization">
+                <img src="image/Star.png" alt="Top" class="image-star">
+                <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
+            </div>
+            <h6>Intermediate accumelator sleeve</h6>
+            <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
+            <div class="display">
+                <button type="button"
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                    <div>
+                        <img src="image/cart-button.png" alt="Buy">
+                    </div>
+                    В корзину
+                </button>
+                <div class="center-block images-catalogue">
+                    <img src="image/like.png" alt="Like" class="image-like">
+                    <img src="image/market-fluctuation%201.png" alt="Diagram" class="image-diagram">
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 block_4-catalogue">
             <img src="image/avt-zap_catalogue_3.png" alt="Catalogue_3">
             <div class="display column-gap_autorization">
                 <img src="image/Star.png" alt="Top" class="image-star">
@@ -384,10 +490,10 @@
     </div>
 </div>
 <div class="main__menu padding__left-page">
-    <hr>
-    <div class="display ">
-        <div class="col-xl-3">
-            <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1">
+    <hr class="hr_1">
+    <div class="display col-gap-catalogue">
+        <div class="col-xl-3 block_1-catalogue">
+            <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1" class="image-1__catalogue">
             <div class="display column-gap_autorization">
                 <img src="image/Star.png" alt="Top" class="image-star">
                 <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
@@ -396,7 +502,7 @@
             <p class="text-price__catalogue">ЦЕНА <span class="text__number_1">по запросу</span></p>
             <div class="display">
                 <button type="button"
-                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom btn-width-catalogue ">
                     <div>
                         <img src="image/cart-button.png" alt="Buy">
                     </div>
@@ -408,8 +514,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-3">
-            <img src="image/avt-zap_catalogue_2.png" alt="Catalogue_2">
+        <div class="col-xl-3 block_1-catalogue">
+            <img src="image/avt-zap_catalogue_2.png" alt="Catalogue_2" class="image-1__catalogue">
             <div class="display column-gap_autorization">
                 <img src="image/Star.png" alt="Top" class="image-star">
                 <p class="text-response"><span class="text-response-span">4.5</span>10 отзывов</p>
@@ -418,7 +524,7 @@
             <p class="text-price-catalogue">4 430₽ <span class="text__non-price">5 430₽</span></p>
             <div class="display">
                 <button type="button"
-                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom">
+                        class="btn btn-primary btn-lg d-flex column__gap-time padding__btn-bottom btn-width-catalogue margin__top2__catalogue">
                     <div>
                         <img src="image/cart-button.png" alt="Buy">
                     </div>
@@ -430,7 +536,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 block_3-catalogue">
             <img src="image/avt-zap_catalogue_1.png" alt="Catalogue_1">
             <div class="display column-gap_autorization">
                 <img src="image/Star.png" alt="Top" class="image-star">
@@ -452,7 +558,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 block_4-catalogue">
             <img src="image/avt-zap_catalogue_3.png" alt="Catalogue_3">
             <div class="display column-gap_autorization">
                 <img src="image/Star.png" alt="Top" class="image-star">
@@ -479,12 +585,12 @@
         <button type="button" class="btn btn-outline-primary center-button-catalogue">Показать еще</button>
     </div>
 </div>
-<div class="main__bottom padding__left-page">
+<div class="main__bottom padding__left-page ">
     <h4>Новости</h4>
     <div class="border__top-news">
-        <div class="display space-around-bottom">
+        <div class="display space-around-bottom display_block">
             <div>
-                <img src="image/Group_3_nov.png" alt="News_1" class="image__new">
+                <img src="image/Group_3_nov.png" alt="News_1" class="image__new top-10">
                 <p class="margin__top-news">Изменения на сайте</p>
                 <p>Недавно на сайте мы ввели
                     очередную порцию изменений,
@@ -495,7 +601,7 @@
                     не заставила себя долго ждать...</p>
             </div>
             <div>
-                <img src="image/Group%20_2.png" alt="News_2" class="image__new">
+                <img src="image/Group%20_2.png" alt="News_2" class="image__new top-10">
                 <p class="margin__top-news">Изменения на сайте</p>
                 <p>Что нового в 2.0:
                     <br>— добавлена история поиска;
@@ -503,7 +609,7 @@
                     <br>— испрвление ошибок.</p>
             </div>
             <div>
-                <img src="image/Group%201.png" alt="News_3" class="image__new">
+                <img src="image/Group%201.png" alt="News_3" class="image__new top-10">
                 <p class="margin__top-news">Очередная порция обновлений для
                     мобильных приложений</p>
                 <p>Что нового добавлено:
@@ -514,7 +620,7 @@
                     <br>— исправление ошибок.</p>
             </div>
             <div>
-                <img src="image/Group%204.png" alt="News_4" class="image__new">
+                <img src="image/Group%204.png" alt="News_4" class="image__new top-10">
                 <p class="margin__top-news">Интерфейс заказов для покупателей
                     стал более функциональным</p>
                 <p>Он позволяет выводить все
@@ -527,7 +633,7 @@
     </div>
 </div>
 <div class="footer padding__left-page">
-    <div class="display space-between-footer">
+    <div class="display space-between-footer display_block">
         <div class="col-xl-2">
             <h5>КАТАЛОГ
             </h5>
@@ -571,6 +677,14 @@
             <p>+7 383 291 92 86
                 <br>info@avt-zap.ru
             </p>
+            <div class="col-xl-2 adress_footer_1">
+                <h5>АДРЕС
+                </h5>
+                <p>г. Новосибирск,
+                    <br>ул. Планировочная, 5, офис 105
+                </p>
+                <p>Форма обратной связи</p>
+            </div>
             <p class="margin__top-news">Мы онлайн, воспользуйтесь</p>
             <p>Подпишитесь на нашу расслыку и
                 вы первыми узнаете о скидках и акциях</p>
@@ -587,7 +701,7 @@
                 <img src="image/google.png" alt="Google">
             </div>
         </div>
-        <div class="col-xl-2 ">
+        <div class="col-xl-2 adress_footer_2">
             <h5>АДРЕС
             </h5>
             <p>г. Новосибирск,
@@ -601,20 +715,6 @@
     <p>2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
 </div>
 
-<div class="display column-gap__main_menu align-items-end menu__phone space-around-bottom">
-    <div>
-        <img src="image/main_menu.png" alt="Main">
-    </div>
-    <div>
-        <img src="image/liked_menu.png" alt="Liked">
-    </div>
-    <div>
-        <img src="image/cart_menu.png" alt="Cart">
-    </div>
-    <div>
-        <img src="image/profile_menu.png" alt="Profile">
-    </div>
-</div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
