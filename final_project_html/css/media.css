@@ -1,4 +1,13 @@
 @media screen and (max-width: 400px) {
+    .width__auto{
+        width: auto;
+    }
+    .menu__city{
+        display: none;
+    }
+    .card{
+        display: none;
+    }
     .padding__left-page {
         padding-left: 5px;
     }
@@ -190,6 +199,7 @@
 
     .menu__phone {
         display: flex;
+        overflow-x: hidden;
     }
 
     .text-price-catalogue {
@@ -208,7 +218,7 @@
     .border__top-news {
         border-top: none;
         position: relative;
-        width: 1500px;
+        width: auto;
     }
 
     .display_block {
@@ -258,7 +268,7 @@
 
     .slider .carousel-inner {
         position: relative;
-        width: 1000px;
+        width: auto;
         height: auto;
         overflow: hidden;
     }
@@ -346,9 +356,21 @@
     .image-1__catalogue {
         width: 80%;
     }
+    .hr_1{
+        width: auto;
+    }
 }
 
 @media screen and (min-width: 401px) and (max-width: 575px) {
+    .width__auto{
+        width: auto;
+    }
+    .hr_1{
+        width:auto;
+    }
+    .menu__city{
+        display: none;
+    }
     .padding__left-page {
         padding-left: 5px;
     }
@@ -558,6 +580,7 @@
         position: relative;
         z-index: 1;
         margin-bottom: -30px;
+        overflow-x: hidden;
     }
 
     .main__menu-button {
@@ -581,7 +604,7 @@
     .border__top-news {
         border-top: none;
         position: relative;
-        width: 1500px;
+        width: auto;
     }
 
     .display_block {
@@ -631,7 +654,7 @@
 
     .slider .carousel-inner {
         position: relative;
-        width: 1000px;
+        width: auto;
         height: auto;
         overflow: hidden;
     }
@@ -750,9 +773,24 @@
     .block_whatsapp {
         justify-content: flex-end;
     }
+    .card{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 950px) {
+    .width__auto{
+        width: auto;
+    }
+    .hr_1{
+        width: auto;
+    }
+    .card{
+        display: none;
+    }
+    .menu__city{
+        display: none;
+    }
     .padding__left-page {
         padding-left: 5px;
     }
@@ -880,7 +918,7 @@
 
     .slider .carousel-inner {
         position: relative;
-        width: 1000px;
+        width: auto;
         height: auto;
         overflow: hidden;
     }
@@ -947,13 +985,21 @@
         padding-top: 50px;
         margin-left: 100px;
     }
-
+    .column-gap__main_menu {
+        column-gap: 20px;
+        width: auto;
+    }
 
     .text__slider {
         padding-top: 50px;
         padding-left: 100px;
     }
-
+    .border__top-news {
+        border-top: 10px
+        solid #F5F5F5;
+        position: relative;
+        width: auto;
+    }
     .text__slider {
         padding-top: auto;
         padding-left: 20px;

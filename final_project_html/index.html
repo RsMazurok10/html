@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-<div class="header__top">
+<div class="header__top ">
     <nav class="navbar navbar-expand-xl navbar-light bg-light">
         <div class="container-fluid padding__left-page">
             <a class="navbar-brand image_header_top-location" href="#"><img src="image/location.png" alt="Location"></a>
@@ -79,7 +79,7 @@
         </div>
     </nav>
 </div>
-<div class="header__main padding__left-page">
+<div class="header__main padding__left-page ">
     <div class="header__main-top">
         <div class="center-block flex-start-header">
             <div class="col-xl-2 d-flex center-block block_logo">
@@ -165,7 +165,7 @@
     <div class="col-xl-7 slider">
         <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner back">
-                <div class="carousel-item d-flex">
+                <div class="carousel-item d-flex width__auto">
                     <div class="col-xl-6 text__slider">
                         <h5>Сцепление в сборе</h5>
                         <p class="slider__promo">0AMCLUTCH</p>
@@ -719,7 +719,69 @@
 <div class="footer__bottom padding__left-page">
     <p>2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
 </div>
-
+<div class="menu__city padding__left-page">
+    <div class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalScrollableLabel">Выберите свой город</h5>
+                    <button type="button" class="btn-close" aria-label="Close"></button>
+                </div>
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control" placeholder="Ваш город" aria-label="Small input group"
+                           aria-describedby="input-group-sm">
+                </div>
+                <div class="modal-body">
+                    <p>Москва</p>
+                    <p>Казань</p>
+                    <p>Челябинск</p>
+                    <p>Санкт-Петербург</p>
+                    <p>Краснодар</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <select class="form-select" aria-label="Default select">
+            <option selected="">Виберете товар</option>
+            <option value="1">6ЕТ40</option>
+            <option value="2">6ЕТ40</option>
+            <option value="3">6ЕТ40</option>
+        </select>
+    </div>
+    <div class="registration_block">
+        <h5>Заказать звонок</h5>
+        <form>
+            <div class="row mb-3">
+                <div class="col-sm-10 margin__top20_slider">
+                    <input type="email" class="form-control margin__top20_slider" placeholder="Ваше имя"
+                           id="inputEmail3">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" placeholder="Номер телефона" id="inputPassword3">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Заказать звонок</button>
+        </form>
+    </div>
+    <div>
+        <div class="card ">
+            <div class="row g-0">
+                <div class="col-5 col-sm-4">
+                    <img src="image/avt-zap_main_cart.png" class="img-fluid " alt="card-horizontal-image">
+                </div>
+                <div class="col-7 col-sm-8">
+                    <div class="card-body">
+                        <p class="card-text">Товар добавлен в корзину</p>
+                        <p class="card-text_1"><small class="text-muted">Intermediate accumelator sleeve</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
